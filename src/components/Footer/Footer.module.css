@@ -1,0 +1,13 @@
+.wrapper {
+  background-color: red;
+  height: var(--footer-height);
+  padding: 0;
+  width: 100%;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
