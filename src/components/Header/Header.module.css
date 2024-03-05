@@ -1,0 +1,16 @@
+.wrapper {
+  background-color: red;
+  height: var(--header-height);
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
