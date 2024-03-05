@@ -1,5 +1,19 @@
-import { createTheme } from '@mantine/core';
+import { CSSVariablesResolver, createTheme } from '@mantine/core';
 
-export const theme = createTheme({
-  /** Put your mantine theme override here */
+const theme = createTheme({
+  other: {
+    headerHeight: '100px',
+    footerHeight: '100px',
+  },
 });
+
+const themeResolver: CSSVariablesResolver = (baseTheme) => ({
+  variables: {
+    '--header-height': baseTheme.other.headerHeight,
+    '--footer-height': baseTheme.other.footerHeight,
+  },
+  dark: {},
+  light: {},
+});
+
+export { theme, themeResolver };
