@@ -1,9 +1,10 @@
-import { Container, Title, Text } from '@mantine/core';
+import { Title, Text } from '@mantine/core';
 import classes from './ContactMe.module.css';
+import { SectionWrapper } from '../SiteWrapper/SectionWrapper';
 
-export function ContactMe() {
+export function ContactMe({ navRef }: { navRef: React.MutableRefObject<HTMLDivElement> }) {
   return (
-    <Container id="contact-me" size="lg">
+    <SectionWrapper navRef={navRef}>
       <Title className={classes.title} ta="center" mt={100}>
         Contact{' '}
         <Text inherit variant="gradient" component="span" gradient={{ from: 'pink', to: 'yellow' }}>
@@ -13,6 +14,6 @@ export function ContactMe() {
       <Text c="dimmed" ta="center" size="lg" maw={580} mx="auto" mt="xl">
         Let&apos;s work together
       </Text>
-    </Container>
+    </SectionWrapper>
   );
 }
