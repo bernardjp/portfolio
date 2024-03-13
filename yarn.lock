@@ -5279,6 +5279,57 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bernardjp-portfolio@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "bernardjp-portfolio@workspace:."
+  dependencies:
+    "@mantine/core": "npm:7.6.1"
+    "@mantine/hooks": "npm:7.6.1"
+    "@storybook/addon-essentials": "npm:^7.6.6"
+    "@storybook/addon-interactions": "npm:^7.6.6"
+    "@storybook/addon-links": "npm:^7.6.6"
+    "@storybook/blocks": "npm:^7.6.6"
+    "@storybook/react": "npm:^7.6.6"
+    "@storybook/react-vite": "npm:^7.6.6"
+    "@storybook/testing-library": "npm:^0.2.2"
+    "@testing-library/dom": "npm:^9.3.3"
+    "@testing-library/jest-dom": "npm:^6.1.5"
+    "@testing-library/react": "npm:^14.1.2"
+    "@testing-library/user-event": "npm:^14.5.1"
+    "@types/react": "npm:^18.2.36"
+    "@types/react-dom": "npm:^18.2.14"
+    "@typescript-eslint/eslint-plugin": "npm:^6.9.1"
+    "@typescript-eslint/parser": "npm:^6.9.1"
+    "@vitejs/plugin-react": "npm:^4.2.1"
+    eslint: "npm:^8.53.0"
+    eslint-config-airbnb: "npm:19.0.4"
+    eslint-config-airbnb-typescript: "npm:^17.1.0"
+    eslint-config-mantine: "npm:3.0.0"
+    eslint-plugin-import: "npm:^2.29.0"
+    eslint-plugin-jsx-a11y: "npm:^6.7.0"
+    eslint-plugin-react: "npm:^7.33.2"
+    eslint-plugin-react-hooks: "npm:^4.6.0"
+    identity-obj-proxy: "npm:^3.0.0"
+    jsdom: "npm:^23.0.1"
+    postcss: "npm:^8.4.32"
+    postcss-preset-mantine: "npm:1.13.0"
+    postcss-simple-vars: "npm:^7.0.1"
+    prettier: "npm:^3.1.1"
+    prop-types: "npm:^15.8.1"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    react-router-dom: "npm:^6.21.0"
+    storybook: "npm:^7.6.6"
+    storybook-dark-mode: "npm:^3.0.3"
+    stylelint: "npm:^16.0.2"
+    stylelint-config-standard-scss: "npm:^12.0.0"
+    typescript: "npm:^5.3.3"
+    vite: "npm:^5.0.10"
+    vite-tsconfig-paths: "npm:^4.2.2"
+    vitest: "npm:^1.1.0"
+  languageName: unknown
+  linkType: soft
+
 "better-opn@npm:^3.0.2":
   version: 3.0.2
   resolution: "better-opn@npm:3.0.2"
@@ -9049,57 +9100,6 @@ __metadata:
   checksum: b0e6e599780ce6bab49cc413eba822f7d1f0dfebd1c103eaa3785c59e43e22c59018323cf9e1708f0ef5329e94a745d163fcbb6bff8e4c6742f9be9e86f3500c
   languageName: node
   linkType: hard
-
-"mantine-vite-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "mantine-vite-template@workspace:."
-  dependencies:
-    "@mantine/core": "npm:7.6.1"
-    "@mantine/hooks": "npm:7.6.1"
-    "@storybook/addon-essentials": "npm:^7.6.6"
-    "@storybook/addon-interactions": "npm:^7.6.6"
-    "@storybook/addon-links": "npm:^7.6.6"
-    "@storybook/blocks": "npm:^7.6.6"
-    "@storybook/react": "npm:^7.6.6"
-    "@storybook/react-vite": "npm:^7.6.6"
-    "@storybook/testing-library": "npm:^0.2.2"
-    "@testing-library/dom": "npm:^9.3.3"
-    "@testing-library/jest-dom": "npm:^6.1.5"
-    "@testing-library/react": "npm:^14.1.2"
-    "@testing-library/user-event": "npm:^14.5.1"
-    "@types/react": "npm:^18.2.36"
-    "@types/react-dom": "npm:^18.2.14"
-    "@typescript-eslint/eslint-plugin": "npm:^6.9.1"
-    "@typescript-eslint/parser": "npm:^6.9.1"
-    "@vitejs/plugin-react": "npm:^4.2.1"
-    eslint: "npm:^8.53.0"
-    eslint-config-airbnb: "npm:19.0.4"
-    eslint-config-airbnb-typescript: "npm:^17.1.0"
-    eslint-config-mantine: "npm:3.0.0"
-    eslint-plugin-import: "npm:^2.29.0"
-    eslint-plugin-jsx-a11y: "npm:^6.7.0"
-    eslint-plugin-react: "npm:^7.33.2"
-    eslint-plugin-react-hooks: "npm:^4.6.0"
-    identity-obj-proxy: "npm:^3.0.0"
-    jsdom: "npm:^23.0.1"
-    postcss: "npm:^8.4.32"
-    postcss-preset-mantine: "npm:1.13.0"
-    postcss-simple-vars: "npm:^7.0.1"
-    prettier: "npm:^3.1.1"
-    prop-types: "npm:^15.8.1"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    react-router-dom: "npm:^6.21.0"
-    storybook: "npm:^7.6.6"
-    storybook-dark-mode: "npm:^3.0.3"
-    stylelint: "npm:^16.0.2"
-    stylelint-config-standard-scss: "npm:^12.0.0"
-    typescript: "npm:^5.3.3"
-    vite: "npm:^5.0.10"
-    vite-tsconfig-paths: "npm:^4.2.2"
-    vitest: "npm:^1.1.0"
-  languageName: unknown
-  linkType: soft
 
 "map-or-similar@npm:^1.5.0":
   version: 1.5.0
